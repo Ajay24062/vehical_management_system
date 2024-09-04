@@ -1,0 +1,416 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+vehicle
+</name>
+</assembly>
+<members>
+<member name="T:vehicle.vehicledbDataSet.loginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet.tbladdcustomerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet.tbladdemployeeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet.tblcarsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet.loginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet.tbladdcustomerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet.tbladdemployeeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet.tblcarsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet.loginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet.tbladdcustomerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet.tbladdemployeeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet.tblcarsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSetTableAdapters.loginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSetTableAdapters.tbladdcustomerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSetTableAdapters.tbladdemployeeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSetTableAdapters.tblcarsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:vehicle.vehicledbDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(vehicle.vehicledbDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:vehicle.vehicledbDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(vehicle.vehicledbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:vehicle.vehicledbDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(vehicle.vehicledbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:vehicle.vehicledbDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:vehicle.vehicledbDataSetTableAdapters.TableAdapterManager.UpdateAll(vehicle.vehicledbDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:vehicle.vehicledbDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:vehicle.vehicledbDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1.loginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1.tbladdcustomerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1.tbladddriverDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1.tbladdemployeeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1.tblcarsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1.loginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1.tbladdcustomerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1.tbladddriverRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1.tbladdemployeeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1.tblcarsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1.loginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1.tbladdcustomerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1.tbladddriverRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1.tbladdemployeeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1.tblcarsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1TableAdapters.loginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1TableAdapters.tbladdcustomerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1TableAdapters.tbladddriverTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1TableAdapters.tbladdemployeeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1TableAdapters.tblcarsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:vehicle.vehicledbDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(vehicle.vehicledbDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:vehicle.vehicledbDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(vehicle.vehicledbDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:vehicle.vehicledbDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(vehicle.vehicledbDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:vehicle.vehicledbDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:vehicle.vehicledbDataSet1TableAdapters.TableAdapterManager.UpdateAll(vehicle.vehicledbDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:vehicle.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:vehicle.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:vehicle.My.Resources.Resources._49ddd7ad_e6ae_4981_bcda_1d7f1c934073_WoodBackground">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:vehicle.My.Resources.Resources.hd_car_background">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:vehicle.My.Resources.Resources.hd_car_background1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:vehicle.My.Resources.Resources.hd_car_background2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:vehicle.My.Resources.Resources.iKd4wfO">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:vehicle.My.Resources.Resources.loginbox">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:vehicle.My.Resources.Resources.loginbox1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:vehicle.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2.adminloginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2.companyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2.loginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2.tbladdcustomerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2.tbladddriverDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2.tbladdemployeeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2.tblcarsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2.adminloginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2.companyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2.loginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2.tbladdcustomerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2.tbladddriverRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2.tbladdemployeeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2.tblcarsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2.adminloginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2.companyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2.loginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2.tbladdcustomerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2.tbladddriverRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2.tbladdemployeeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2.tblcarsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2TableAdapters.adminloginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2TableAdapters.companyTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2TableAdapters.loginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2TableAdapters.tbladdcustomerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2TableAdapters.tbladddriverTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2TableAdapters.tbladdemployeeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2TableAdapters.tblcarsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:vehicle.vehicledbDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(vehicle.vehicledbDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:vehicle.vehicledbDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(vehicle.vehicledbDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:vehicle.vehicledbDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(vehicle.vehicledbDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:vehicle.vehicledbDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:vehicle.vehicledbDataSet2TableAdapters.TableAdapterManager.UpdateAll(vehicle.vehicledbDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:vehicle.vehicledbDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
